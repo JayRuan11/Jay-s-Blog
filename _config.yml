@@ -9,7 +9,7 @@ description: '永远相信美好的事情即将发生~'
 keywords:
 author: Jay Ruan
 language: zh-CN
-timezone: 'Asia'
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -101,4 +101,21 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/JayRuan11/Jay-s-Blog.git
+  branch: main
+
+mathjax:
+  enable: true
+
+# _config.yml
+toc:
+  enable: true
+  # 设置目录的样式（可选）
+  # 例如： 'ul'、'ol'、'div' 等
+  list_type: 'ul'
+  # 自定义目录的标题
+  title: '目录'
+  # 目录的最大层级
+  # 例如： 2 会生成到 H1 和 H2 的目录
+  depth: 2
